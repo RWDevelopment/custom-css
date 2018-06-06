@@ -17,7 +17,7 @@ use Thunder\Shortcode\Shortcode\ShortcodeInterface;
 use Flextype\Component\{Event\Event,Registry\Registry};
 
 //
-// Shortcode: [css]
+// Shortcode: [css]your style[/css]
 //
 Event::addListener('onShortcodesInitialized', function () {
 	
