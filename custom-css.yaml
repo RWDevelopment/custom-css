@@ -1,0 +1,13 @@
+name: custom-css
+version: 1.0.0
+description: "Add custom css style to your page."
+author:
+  name: 
+  email: 
+  url: 
+homepage: 
+bugs: 
+license: MIT
+
+# Plugin settings
+enabled: true

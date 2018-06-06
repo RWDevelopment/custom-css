@@ -1,36 +1,3 @@
-# Custom css Plugin for [Flextype](http://flextype.org/)
-
-Custom css is a lightweight plugin which allows user to add custom css style to page.
-
-## Installation
-1. Unzip plugin to the folder `/site/plugins/`
-2. Go to `/site/config/site.yaml` and add plugin name to plugins section.
-3. Save your changes.
-
-Example:
-```
-...
-plugins:
-  - custom-css
-```
-
-## Usage in page content
-
-```
-[css]
-h2 {font-weight:bold;font-size:40px;}
-h3 {font-weight:bold;font-size:30px;}
-[/css]
-```
-
-## Settings
-
-```yaml
-enabled: true # or `false` to disable the plugin
-```
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2018 Flextype
